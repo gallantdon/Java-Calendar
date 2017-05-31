@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ 
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+ 
+ 
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="344.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="NewUser.NewUserController">
+   <children>
+      <TextArea fx:id="resultArea" layoutX="7.0" layoutY="250.0" prefHeight="85.0" prefWidth="167.0" wrapText="true" />
+      
+      <VBox layoutX="97.0" layoutY="24.0" spacing="4.0">
+         <children>
+            <TextField fx:id="userNameText" prefHeight="25.0" prefWidth="79.0" promptText="User Name" />
+            <TextField fx:id="passwordText" prefHeight="25.0" prefWidth="79.0" promptText="Password" />
+         </children>
+      </VBox>
+      
+      <Button fx:id="insertNewUserBtn" layoutX="396.0" layoutY="70.0" mnemonicParsing="false" onAction="#insertNewUser" prefHeight="25.0" prefWidth="139.0" text="Creat Account" />
+   </children>
+</AnchorPane>
